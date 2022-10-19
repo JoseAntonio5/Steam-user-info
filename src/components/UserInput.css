@@ -1,3 +1,48 @@
 .UserInput {
+    color: #fff;
+}
+
+.UserInput form {
+    width: 300px;
+    margin: 0 auto;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.UserInput form input[type=text] {
+    width: 100%;
+    height: 32px;
+
+    font-size: 1rem;
+
+    border: 1px solid #101010;
+    border-radius: 8px;
+    outline: 0;
+
+}
+
+.UserInput form button {
+    width: 100%;
+    height: 28px;
+    margin: 10px 0 0 0;
+
+    font-size: 1.1rem;
+
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+
+    transition: 300ms all ease-in-out;
+}
+
+.UserInput form button:hover {
     
+}
+
+.UserInput-error {
+    text-transform: uppercase;
+
 }

@@ -3,6 +3,7 @@ import axios from 'axios';
 import { ToastContainer, toast } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import Card from './Card';
+import './UserInput.css';
 
 function UserInput() {
 
@@ -38,13 +39,14 @@ function UserInput() {
                     name="message" 
                     onChange={handleChange}
                 />
-                <button onClick={handleClick}>Find</button>
+                <button onClick={handleClick}>Search</button>
             </form>
 
             {userData.success === false 
-            ? <h1>Error: User not found.</h1>
+            ? <h1 className='UserInput-error'>Error: User not found.</h1>
             : <Card 
                 username={userData?.data?.player?.username}
+                id={userData?.data?.player?.id}
                 imageURL={userData?.data?.player?.avatar}
                 profileURL={userData?.data?.player?.meta?.profileurl}
                 realName={userData?.data?.player?.meta?.realname}

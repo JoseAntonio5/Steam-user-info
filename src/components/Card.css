@@ -1,0 +1,24 @@
+.Card {
+    width: 400px;
+    margin: 50px auto;
+    padding: 10px;
+
+    background-color: #e6e6e6;
+    color: #000;
+
+    border-radius: 16px;
+}
+
+.Card a {
+    color: #000;
+    text-decoration: none;
+}
+
+.Card h1 {
+    margin-bottom: 0;
+}
+
+.Card p {
+    font-size: 0.8rem;
+    margin-top: 0;
+}
