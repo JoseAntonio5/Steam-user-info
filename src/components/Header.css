@@ -18,3 +18,24 @@
     font-family: 'Bebas Neue', cursive;
     font-size: 3rem;
 }
+
+@media (max-width: 824px) {
+    .Header h1 {
+        font-size: 5rem;
+    }
+
+    .Header h3 {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 506px) {
+    .Header h1 {
+        margin-top: 28px;
+        font-size: 3rem;
+    }
+
+    .Header h3 {
+        font-size: 1.2rem;
+    }
+}

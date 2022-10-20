@@ -49,6 +49,7 @@ function UserInput() {
                 id={userData?.data?.player?.id}
                 imageURL={userData?.data?.player?.avatar}
                 profileURL={userData?.data?.player?.meta?.profileurl}
+                ProfileVisibility={userData?.data?.player?.meta?.communityvisibilitystate}
                 realName={userData?.data?.player?.meta?.realname}
             />}
 
