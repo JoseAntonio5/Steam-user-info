@@ -22,3 +22,9 @@
     font-size: 0.8rem;
     margin-top: 0;
 }
+
+@media (max-width: 506px) {
+    .Card {
+        width: 350px;
+    }
+}
