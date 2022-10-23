@@ -1,4 +1,4 @@
-#  Steam User Info
+#  Steam User Info 🎮
 
 ##  About The Project
 > App title and search box
